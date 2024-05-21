@@ -133,7 +133,7 @@ h2:hover{
 .navbar .navbar-nav .nav-link.active,
 .sticky-top.bg-white .navbar .navbar-nav .nav-link:hover,
 .sticky-top.bg-white .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-primary);
+  color: #56a2ff;
 }
 
 .navbar .dropdown-toggle::after {
@@ -207,7 +207,7 @@ h2:hover{
     border-radius:50%;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 426px) {
     .item2-elemant {
         flex: 0 0 100%;
         max-width: 100%;
@@ -224,6 +224,13 @@ h2:hover{
     height: 200px;
     width: 400px;
   }
+  .item2-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+
 
 }
 
@@ -254,7 +261,7 @@ h2:hover{
    
 }
 
-@media (max-width: 992px) {
+@media (max-width: 426px) {
     .item3-elemant {
         flex: 0 0 100%;
         max-width: 100%;
@@ -267,7 +274,13 @@ h2:hover{
       margin-bottom: 30px;
       font-size: small;
   }
-    
+
+  .item3-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
 
 }
 
@@ -285,7 +298,10 @@ h2:hover{
   .social-links a {
       margin-right: 10px;
       text-decoration: none;
-      color: #007bff;
+      color: #56a2ff;
+  }
+  a{
+    color: #56a2ff;
   }
   .social-links a:hover{
       color: rgb(4, 64, 117);
@@ -304,7 +320,9 @@ h2:hover{
     justify-content: center;
    
 }
-
+.item5-container h2{
+  color: #56a2ff;
+}
 
 .box {
     width: 600px;
@@ -443,7 +461,7 @@ h2:hover{
     font-weight: 400;
     margin: 0px 5px;
   }
-  @media (max-width:700px) {
+  @media (max-width:426px) {
     .footerNav ul{
       flex-direction: column;
     }
